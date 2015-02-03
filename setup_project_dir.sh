@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# don't overwrite files.
+set -o noclobber
+
 # Exit if no arguments were provided.
 [ $# -eq 0 ] && { echo "Usage: $0 [target directory]"; exit 1; }
 

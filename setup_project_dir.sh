@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Exit if no arguments were provided.
+[ $# -eq 0 ] && { echo "Usage: $0 [target directory]"; exit 1; }
+
 # the first argument passed into the script should be the dir
 # where you want the folder structure setup
 

@@ -14,9 +14,9 @@ the `setup_project_dir.sh` script creates the following folder structure:
     |- data/          # data for storing fixed data sets
     |
     |- src/           # any source code
-	|
+    |
     |- bin/           # any compiled binaries or scripts
-	|
+    |
     |- results/       # output for tracking computational experiments performed on data
 
 A README containing a brief blurb is placed in each folder.
@@ -32,6 +32,9 @@ There are a few ways set everything up.
 3.  download the script by clicking on `setup_project_dir.sh` above and `right-click` > `save link as...` on the `raw` button
 4.  downloading the script directly: `wget https://github.com/chendaniely/computational-project-cookie-cutter/raw/master/setup_project_dir.sh`
 
+The above methods all accomplish the same thing, it gets the script onto your computer.
+Use which ever one makes sense.
+
 ## How to use
 go to the directory where the `setup_project_dir.sh`
 is and run the following line in your terminal
@@ -39,3 +42,10 @@ is and run the following line in your terminal
 `bash setup_project_dir.sh /directory/to/where/your/project/is`
 
 Enjoy!
+
+## Use it anywhere
+If you want to be able to call this script no matter where you are, you can add the following lines to your `.bashrc`, `.bash_alias`, etc (Note: you only need it in one of them)
+
+`alias pinit='/path/to/where/the/script/is.sh'`
+
+and you can use it as such: `pinit /path/to/folder` or if you are already in the folder `pinit .`

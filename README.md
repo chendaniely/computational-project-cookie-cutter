@@ -19,6 +19,11 @@ the `setup_project_dir.sh` script creates the following folder structure:
 	|
     |- results/       # output for tracking computational experiments performed on data
 
+A README containing a brief blurb is placed in each folder.
+This is because git will not track empty folders and placing a README will
+remind you of what goes in each folder, and also the overall
+folder structure will be retained
+
 ## How to use
 go to the directory where the `setup_project_dir.sh`
 is and run the following line in your terminal

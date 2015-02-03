@@ -24,6 +24,14 @@ This is because git will not track empty folders and placing a README will
 remind you of what goes in each folder, and also the overall
 folder structure will be retained
 
+## How to install
+There are a few ways set everything up.
+
+1.  fork/clone the repo to your computer
+2.  download and extract the zip on the right
+3.  download the script by clicking on `setup_project_dir.sh` above and `right-click` > `save link as...` on the `raw` button
+4.  downloading the script directly: `wget https://github.com/chendaniely/computational-project-cookie-cutter/raw/master/setup_project_dir.sh`
+
 ## How to use
 go to the directory where the `setup_project_dir.sh`
 is and run the following line in your terminal

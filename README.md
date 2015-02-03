@@ -3,7 +3,7 @@ A cookie cutter to set up a folder structure for a computational project
 
 this project was inspired by:
 
-Noble WS (2009) A Quick Guide to Organizing Computational Biology Projects. PLoS Comput Biol 5(7): e1000424. doi:10.1371/journal.pcbi.1000424
+(http://journals.plos.org/ploscollections/article?id=10.1371/journal.pcbi.1000424)[Noble WS (2009) A Quick Guide to Organizing Computational Biology Projects. PLoS Comput Biol 5(7): e1000424. doi:10.1371/journal.pcbi.1000424]
 
 
 ## How to use

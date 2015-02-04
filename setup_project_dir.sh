@@ -9,7 +9,7 @@ set -o noclobber
 # the first argument passed into the script should be the dir
 # where you want the folder structure setup
 
-echo "setting up folder structure in $1"
+echo "Setting up folder structure in $1"
 
 cd $1
 mkdir doc data src bin results
@@ -64,3 +64,5 @@ If you use a webservice in conjunction with your version control (e.g. github, b
 the webservice will be able to render these README and other [markdown](https://help.github.com/articles/markdown-basics/) files automatically.
 
 This project was taken from [this](https://github.com/chendaniely/computational-project-cookie-cutter) github repo" >> README.md
+
+echo "Top-level README.md created"

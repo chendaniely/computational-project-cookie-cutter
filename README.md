@@ -1,7 +1,9 @@
 # computational-project-cookie-cutter
-A cookie cutter to set up a folder structure for a computational project
+A cookie cutter (aka project template) to set up a folder structure for a computational project.
+This is a quick way to setup a folder structure that follows one standard to organize a project.
+This helps with project management, reproducibility, sharing, and publishing your data, analysis, and results.
 
-this project was inspired by:
+This project was inspired (and modeled off) by:
 
 [Noble WS 2009 A Quick Guide to Organizing Computational Biology Projects. PLoS Comput Biol 5 7: e1000424. doi:10.1371/journal.pcbi.1000424](http://dx.doi.org/10.1371/journal.pcbi.1000424)
 

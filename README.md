@@ -51,3 +51,7 @@ If you want to be able to call this script no matter where you are, you can add 
 `alias pinit='/path/to/where/the/script/is/setup_project_dir.sh'`
 
 and you can use it as such: `pinit /path/to/folder` or if you are already in the folder `pinit .`
+
+## Similar Projects
+I'm not the only one creating similar cookie-cutter projects:
+ - https://github.com/Reproducible-Science-Curriculum/rr-init

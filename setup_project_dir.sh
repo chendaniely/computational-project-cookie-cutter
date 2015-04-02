@@ -11,6 +11,9 @@ set -o noclobber
 
 echo "Setting up folder structure in $1"
 
+if [ ! -d "$1" ]; then
+    mkdir $1
+fi
 cd $1
 mkdir doc data src bin results
 

@@ -19,18 +19,23 @@ mkdir doc data src bin results
 
 cd doc
 echo "Doc directory with one subdirectory per manuscript" > README
+touch .gitkeep
 
 cd ../data
 echo "Data directory for storing fixed data sets" > README
+touch .gitkeep
 
 cd ../src
 echo "src for source code" > README
+touch .gitkeep
 
 cd ../bin
 echo "bin for compiled binaries or scripts" > README
+touch .gitkeep
 
 cd ../results
 echo "Results directory for tracking computational experiments peformed on data" > README
+touch .gitkeep
 
 echo "Folders created."
 
